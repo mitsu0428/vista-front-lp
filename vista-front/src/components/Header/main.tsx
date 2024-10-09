@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 // import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as styles from "./Header.css";
