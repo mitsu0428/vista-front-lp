@@ -10,6 +10,7 @@ export const mainVisual = style({
   width: "100%",
 });
 export const introductionWrapper = style({
+  position: "relative",
   margin: "-55px 0 0 0",
 });
 export const introduction = style({
@@ -52,34 +53,78 @@ export const introduction2 = style({
   width: "100%",
 });
 export const aboutUsWrapper = style({
+  position: "relative",
   margin: "-57px 0 0 0",
 });
 export const aboutUs = style({
   width: "100%",
 });
 export const flowWrapper = style({
-  padding: "193px 0 105px 0",
+  position: "relative",
+  // padding: "193px 0 105px 0",
 });
 export const flow = style({
   width: "684px",
-  margin: "0 312px 0 284px",
+  margin: "193px 24% 105px 22%",
 });
 export const requirementsWrapper = style({
-  padding: "252px 0 105px",
+  position: "relative",
+  // padding: "252px 0 105px",
 });
 export const requirements = style({
   width: "100%",
-  margin: "0 auto 0",
+  margin: "252px auto 105px",
 });
 export const faqWrapper = style({
-  padding: "43px 0 134px 0",
+  position: "relative",
 });
 export const faq = style({
   width: "100%",
+  margin: "43px 0 222px",
 });
 export const messageWrapper = style({
-  padding: "88px 0 0",
+  position: "relative",
 });
 export const message = style({
   width: "100%",
+});
+export const subtitleWrapper = style({
+  position: "absolute",
+  top: "110px",
+});
+export const aboutUsSubtitleWrapper = style({
+  position: "absolute",
+  top: "232px",
+  left: "132px",
+});
+export const flowSubtitleWrapper = style({
+  position: "absolute",
+  top: "0",
+  left: "116px",
+});
+export const requirementsSubtitleWrapper = style({
+  position: "absolute",
+  top: "0",
+  left: "113px",
+});
+export const faqSubtitleWrapper = style({
+  position: "absolute",
+  top: "0",
+  left: "113px",
+});
+export const messageSubtitleWrapper = style({
+  position: "absolute",
+  top: "0",
+  left: "113px",
+});
+export const followButtonFieldWrapper = style({
+  width: "472px",
+  position: "absolute",
+  top: "1033px",
+  left: "672px",
+});
+export const followButtonField = style({
+  display: "flex",
+  justifyContent: "space-between",
+  margin: "7px 0 0",
 });

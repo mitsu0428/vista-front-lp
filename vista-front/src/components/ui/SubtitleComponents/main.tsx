@@ -13,6 +13,7 @@ type SubtitleProps = {
   marginTop?: string;
   marginLeft?: string;
   marginBottom?: string;
+  lineHeight?: string;
 };
 
 // 濃いピンク文字のサブタイトルコンポーネント
@@ -23,13 +24,14 @@ export const PinkFillSubTitle: React.FC<SubtitleProps> = ({
   marginBottom,
   textAlign,
   children,
+  lineHeight,
 }) => {
   return (
     <h2
       className={
         textAlign === "center" ? PinkFillStyleTextCenter : PinkFillStyleTextLeft
       }
-      style={{ fontSize, marginTop, marginBottom, marginLeft }}
+      style={{ fontSize, marginTop, marginBottom, marginLeft, lineHeight }}
     >
       {children}
     </h2>
@@ -42,12 +44,13 @@ export const PinkNotFillSubTitleWithBorder: React.FC<SubtitleProps> = ({
   marginTop,
   marginBottom,
   marginLeft,
+  textAlign,
   children,
 }) => {
   return (
     <h2
       className={PinkNotFillStyleWithBorderTextLeft}
-      style={{ fontSize, marginTop, marginBottom, marginLeft }}
+      style={{ fontSize, marginTop, marginBottom, marginLeft, textAlign }}
     >
       {children}
     </h2>

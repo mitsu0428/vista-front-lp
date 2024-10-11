@@ -34,3 +34,5 @@ export const Images = {
 };
 
 export const LogoImage = "/assets/logo.png";
+export const TiktokImage = "/assets/tiktok.png";
+export const InstagramImage = "/assets/instagram.png";

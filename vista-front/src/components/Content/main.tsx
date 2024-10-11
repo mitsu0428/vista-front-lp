@@ -2,6 +2,9 @@
 
 import React from "react";
 // import { BeLiver } from "../ui/BeLiverRadiusButton/main";
+import * as TextComponents from "@/components/ui/TextComponents/main";
+import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
+import { Follow } from "../ui/FollowRadiusButton/main";
 import * as styles from "./Content.css";
 import { Images } from "@/constants/image";
 
@@ -27,6 +30,20 @@ export const Components: React.FC = () => {
         />
       </div>
       <div className={styles.introductionWrapper}>
+        <div className={styles.subtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle
+            fontSize="144px"
+            textAlign="center"
+          >
+            HIKARU
+          </SubtitleComponents.PinkFillSubTitle>
+          <SubtitleComponents.PinkNotFillSubTitleWithBorder
+            fontSize="144px"
+            textAlign="center"
+          >
+            URANISHI
+          </SubtitleComponents.PinkNotFillSubTitleWithBorder>
+        </div>
         <img
           src={Introduction.pc}
           alt="Introduction"
@@ -55,12 +72,36 @@ export const Components: React.FC = () => {
         />
       </div>
       <div className={styles.aboutUsWrapper}>
+        <div className={styles.aboutUsSubtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            ABOUT US
+          </SubtitleComponents.PinkFillSubTitle>
+          <TextComponents.PinkNormalText marginTop="-12px">
+            Vistaってどんな事務所？
+          </TextComponents.PinkNormalText>
+        </div>
         <img src={AboutUs.pc} alt="AboutUs" className={styles.aboutUs} />
       </div>
       <div className={styles.flowWrapper}>
+        <div className={styles.flowSubtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            FLOW
+          </SubtitleComponents.PinkFillSubTitle>
+          <TextComponents.PinkNormalText marginTop="-12px">
+            所属までの流れ
+          </TextComponents.PinkNormalText>
+        </div>
         <img src={Flow.pc} alt="Flow" className={styles.flow} />
       </div>
       <div className={styles.requirementsWrapper}>
+        <div className={styles.requirementsSubtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            REQUIREMENTS
+          </SubtitleComponents.PinkFillSubTitle>
+          <TextComponents.PinkNormalText marginTop="-12px">
+            募集要項
+          </TextComponents.PinkNormalText>
+        </div>
         <img
           src={Requirements.pc}
           alt="Requirements"
@@ -68,10 +109,38 @@ export const Components: React.FC = () => {
         />
       </div>
       <div className={styles.faqWrapper}>
+        <div className={styles.faqSubtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            FAQ
+          </SubtitleComponents.PinkFillSubTitle>
+          <TextComponents.PinkNormalText marginTop="-12px">
+            よくある質問
+          </TextComponents.PinkNormalText>
+        </div>
         <img src={Faq.pc} alt="Faq" className={styles.faq} />
       </div>
       <div className={styles.messageWrapper}>
+        <div className={styles.messageSubtitleWrapper}>
+          <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            MESSAGE
+          </SubtitleComponents.PinkFillSubTitle>
+          <TextComponents.PinkNormalText marginTop="-12px">
+            ひかるからのメッセージ♡
+          </TextComponents.PinkNormalText>
+        </div>
         <img src={Message.pc} alt="Message" className={styles.message} />
+        <div className={styles.followButtonFieldWrapper}>
+          <SubtitleComponents.PinkFillSubTitle
+            fontSize="30px"
+            lineHeight="normal"
+          >
+            FOLLOW ME!
+          </SubtitleComponents.PinkFillSubTitle>
+          <div className={styles.followButtonField}>
+            <Follow followType="tiktok" />
+            <Follow followType="instagram" />
+          </div>
+        </div>
       </div>
     </div>
   );
