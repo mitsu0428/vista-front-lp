@@ -25,6 +25,17 @@ export const buttonStyle = style({
   },
 });
 
+export const headerButtonStyle = style([
+  buttonStyle,
+  {
+    width: "231px",
+    height: "65px",
+    boxShadow: "none",
+    border: "none",
+    borderRadius: "0",
+  },
+]);
+
 export const textPrimary = style({
   fontFamily: "Passion One, sans-serif",
   fontSize: "54px",
@@ -35,6 +46,14 @@ export const textPrimary = style({
   margin: 0,
 });
 
+export const headerTextPrimary = style([
+  textPrimary,
+  {
+    fontSize: "34px",
+    lineHeight: "normal",
+  },
+]);
+
 export const textSecondary = style({
   fontFamily: "Noto Sans JP, sans-serif",
   fontSize: "20px",
@@ -44,3 +63,10 @@ export const textSecondary = style({
   textAlign: "left",
   margin: 0,
 });
+
+export const headerTextSecondary = style([
+  textSecondary,
+  {
+    fontSize: "15px",
+  },
+]);

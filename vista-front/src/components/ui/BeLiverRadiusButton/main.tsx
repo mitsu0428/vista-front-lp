@@ -1,10 +1,24 @@
-import { buttonStyle, textPrimary, textSecondary } from "./BeLiver.css";
-
-export const BeLiver = () => {
+import React from "react";
+import {
+  headerButtonStyle,
+  buttonStyle,
+  headerTextPrimary,
+  textPrimary,
+  headerTextSecondary,
+  textSecondary,
+} from "./BeLiver.css";
+type BeLiverProps = {
+  isHeader?: boolean;
+};
+export const BeLiver: React.FC<BeLiverProps> = ({ isHeader }) => {
   return (
-    <button className={buttonStyle}>
-      <span className={textPrimary}>BE LIVER!</span>
-      <span className={textSecondary}>ライバーになる！</span>
+    <button className={isHeader ? headerButtonStyle : buttonStyle}>
+      <span className={isHeader ? headerTextPrimary : textPrimary}>
+        BE LIVER!
+      </span>
+      <span className={isHeader ? headerTextSecondary : textSecondary}>
+        ライバーになる！
+      </span>
     </button>
   );
 };

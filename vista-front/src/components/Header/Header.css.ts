@@ -9,7 +9,7 @@ export const header = style({
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "0 20px",
+  padding: "0 0 0 20px",
   "@media": {
     "screen and (max-width: 768px)": {
       display: "none",
@@ -39,11 +39,15 @@ export const nav = style({
   fontSize: "20px",
   color: "#F276AA",
   fontFamily: "Passion One, sans-serif",
+  margin: "0 32px 0 0",
   "@media": {
     "screen and (max-width: 768px)": {
       display: "none",
     },
   },
+});
+export const navWrapper = style({
+  display: "flex",
 });
 
 export const hamburgerButton = style({
@@ -113,6 +117,7 @@ export const menu = style({
   fontSize: "17px",
   color: "#F276AA",
   fontFamily: "Noto Sans JP, sans-serif",
+  zIndex: "10",
   "@media": {
     "screen and (min-width: 769px)": {
       display: "none",
