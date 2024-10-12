@@ -5,6 +5,7 @@ export const mainContent = style({
 });
 export const mainVisualWrapper = style({
   margin: "65px 0 0 0",
+  position: "relative",
 });
 export const mainVisual = style({
   width: "100%",
@@ -127,4 +128,13 @@ export const followButtonField = style({
   display: "flex",
   justifyContent: "space-between",
   margin: "7px 0 0",
+});
+export const beLiverWrapper = style({
+  width: "fit-content",
+  position: "absolute",
+  left: "0",
+  right: "0",
+  // MEMO: component化してpropsで受け取るか検討
+  // bottom: "54px",
+  margin: "0 auto",
 });

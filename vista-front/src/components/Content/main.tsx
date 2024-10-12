@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import { BeLiver } from "../ui/BeLiverRadiusButton/main";
+import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as TextComponents from "@/components/ui/TextComponents/main";
 import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
 import { Follow } from "../ui/FollowRadiusButton/main";
@@ -28,6 +28,9 @@ export const Components: React.FC = () => {
           alt="MainVisual"
           className={styles.mainVisual}
         />
+        <div className={styles.beLiverWrapper} style={{ bottom: "54px" }}>
+          <BeLiver />
+        </div>
       </div>
       <div className={styles.introductionWrapper}>
         <div className={styles.subtitleWrapper}>
@@ -107,6 +110,9 @@ export const Components: React.FC = () => {
           alt="Requirements"
           className={styles.requirements}
         />
+        <div className={styles.beLiverWrapper} style={{ bottom: "25px" }}>
+          <BeLiver />
+        </div>
       </div>
       <div className={styles.faqWrapper}>
         <div className={styles.faqSubtitleWrapper}>
@@ -118,6 +124,9 @@ export const Components: React.FC = () => {
           </TextComponents.PinkNormalText>
         </div>
         <img src={Faq.pc} alt="Faq" className={styles.faq} />
+        <div className={styles.beLiverWrapper} style={{ bottom: "92px" }}>
+          <BeLiver />
+        </div>
       </div>
       <div className={styles.messageWrapper}>
         <div className={styles.messageSubtitleWrapper}>

@@ -1,7 +1,6 @@
 import React from "react";
 import { buttonStyle, iconStyle, textPrimary } from "./Follow.css";
 import { TiktokImage, InstagramImage } from "@/constants/image";
-import * as styles from "./Follow.css";
 
 type FollowProps = {
   followType: "tiktok" | "instagram";
