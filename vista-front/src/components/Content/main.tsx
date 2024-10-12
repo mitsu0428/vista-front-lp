@@ -72,14 +72,14 @@ export const Components: React.FC = () => {
         />
       </div>
       <div className={styles.aboutUsWrapper}>
-        <div className={styles.aboutUsSubtitleWrapper}>
+        {/* <div className={styles.aboutUsSubtitleWrapper}>
           <SubtitleComponents.PinkFillSubTitle fontSize="144px">
             ABOUT US
           </SubtitleComponents.PinkFillSubTitle>
           <TextComponents.PinkNormalText marginTop="-12px">
             Vistaってどんな事務所？
           </TextComponents.PinkNormalText>
-        </div>
+        </div> */}
         <img src={AboutUs.pc} alt="AboutUs" className={styles.aboutUs} />
       </div>
       <div className={styles.flowWrapper}>
