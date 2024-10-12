@@ -3,6 +3,7 @@ import { BaseTextStyle } from "./TextComponents.css";
 
 type SubtitleProps = {
   children: React.ReactNode;
+  fontSize?: string;
   marginTop?: string;
   marginLeft?: string;
   marginBottom?: string;
@@ -10,6 +11,7 @@ type SubtitleProps = {
 
 // MEMO: ピンク文字のサブタイトルコンポーネント
 export const PinkNormalText: React.FC<SubtitleProps> = ({
+  fontSize,
   marginTop,
   marginLeft,
   marginBottom,
@@ -18,7 +20,7 @@ export const PinkNormalText: React.FC<SubtitleProps> = ({
   return (
     <p
       className={BaseTextStyle}
-      style={{ marginTop, marginBottom, marginLeft }}
+      style={{ fontSize, marginTop, marginBottom, marginLeft }}
     >
       {children}
     </p>
