@@ -53,7 +53,7 @@ export const Components: React.FC = () => {
           <Link href="/">RECRUIT</Link>
           <Link href="/">募集要項</Link>
           <Link href="/">COMPANY</Link>
-          <Link href="/">PRIVACY POLICY</Link>
+          <Link href="/privacy">PRIVACY POLICY</Link>
         </div>
       )}
     </div>

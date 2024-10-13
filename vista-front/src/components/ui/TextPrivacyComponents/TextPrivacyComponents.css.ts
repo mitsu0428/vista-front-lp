@@ -9,4 +9,11 @@ export const NormalTextStyle = style({
   // letterSpacing: "0.01em",
   textAlign: "left",
   color: "#1E1E1E",
+  "@media": {
+    "screen and (max-width: 768px)": {
+      fontFamily: "Inter",
+      fontSize: "13px",
+      lineHeight: "24px",
+    },
+  },
 });
