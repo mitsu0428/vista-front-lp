@@ -6,6 +6,7 @@ import * as TextComponents from "@/components/ui/TextComponents/main";
 import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
 import { Follow } from "../ui/FollowRadiusButton/main";
 import * as styles from "./Content.css";
+import { GoogleFont } from "@/styles/font";
 import { Images } from "@/constants/image";
 
 export const Components: React.FC = () => {
@@ -38,12 +39,14 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="144px"
               textAlign="center"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               HIKARU
             </SubtitleComponents.PinkFillSubTitle>
             <SubtitleComponents.PinkNotFillSubTitleWithBorder
               fontSize="144px"
               textAlign="center"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               URANISHI
             </SubtitleComponents.PinkNotFillSubTitleWithBorder>
@@ -88,7 +91,10 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.flowWrapper}>
           <div className={styles.flowSubtitleWrapper}>
-            <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            <SubtitleComponents.PinkFillSubTitle
+              fontSize="144px"
+              fontClassName={GoogleFont.passWithAnotherClass}
+            >
               FLOW
             </SubtitleComponents.PinkFillSubTitle>
             <TextComponents.PinkNormalText marginTop="-12px">
@@ -99,7 +105,10 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.requirementsWrapper}>
           <div className={styles.requirementsSubtitleWrapper}>
-            <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            <SubtitleComponents.PinkFillSubTitle
+              fontSize="144px"
+              fontClassName={GoogleFont.passWithAnotherClass}
+            >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>
             <TextComponents.PinkNormalText marginTop="-12px">
@@ -117,7 +126,10 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.faqWrapper}>
           <div className={styles.faqSubtitleWrapper}>
-            <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            <SubtitleComponents.PinkFillSubTitle
+              fontSize="144px"
+              fontClassName={GoogleFont.passWithAnotherClass}
+            >
               FAQ
             </SubtitleComponents.PinkFillSubTitle>
             <TextComponents.PinkNormalText marginTop="-12px">
@@ -131,7 +143,10 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.messageWrapper}>
           <div className={styles.messageSubtitleWrapper}>
-            <SubtitleComponents.PinkFillSubTitle fontSize="144px">
+            <SubtitleComponents.PinkFillSubTitle
+              fontSize="144px"
+              fontClassName={GoogleFont.passWithAnotherClass}
+            >
               MESSAGE
             </SubtitleComponents.PinkFillSubTitle>
             <TextComponents.PinkNormalText marginTop="-12px">
@@ -143,6 +158,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="30px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               FOLLOW ME!
             </SubtitleComponents.PinkFillSubTitle>
@@ -170,6 +186,7 @@ export const Components: React.FC = () => {
               fontSize="70px"
               textAlign="center"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               HIKARU
             </SubtitleComponents.PinkFillSubTitle>
@@ -177,6 +194,7 @@ export const Components: React.FC = () => {
               fontSize="70px"
               textAlign="center"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               URANISHI
             </SubtitleComponents.PinkNotFillSubTitleWithBorder>
@@ -218,6 +236,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="55px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               ABOUT US
             </SubtitleComponents.PinkFillSubTitle>
@@ -232,6 +251,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="55px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               FLOW
             </SubtitleComponents.PinkFillSubTitle>
@@ -246,6 +266,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="55px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>
@@ -267,6 +288,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="55px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               FAQ
             </SubtitleComponents.PinkFillSubTitle>
@@ -284,6 +306,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="55px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               MESSAGE
             </SubtitleComponents.PinkFillSubTitle>
@@ -296,6 +319,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="30px"
               lineHeight="normal"
+              fontClassName={GoogleFont.passWithAnotherClass}
             >
               FOLLOW ME!
             </SubtitleComponents.PinkFillSubTitle>

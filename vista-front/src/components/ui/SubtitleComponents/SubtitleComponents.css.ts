@@ -2,7 +2,6 @@ import { style } from "@vanilla-extract/css";
 
 // 共通のスタイルを定義
 const baseSubtitleStyle = style({
-  fontFamily: "Passion One",
   fontWeight: 400,
   width: "100%",
   lineHeight: "158.54px",
