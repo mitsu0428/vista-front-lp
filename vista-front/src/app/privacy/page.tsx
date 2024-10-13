@@ -1,13 +1,12 @@
 import * as Header from "@/components/Header/main";
-import * as Content from "@/components/Content/main";
+import * as ContentPrivacy from "@/components/ContentPrivacy/main";
 import * as Footer from "@/components/Footer/main";
-// import styles from "./page.module.css";
 
-export default function Home() {
+export default function Privacy() {
   return (
     <div>
       <Header.Components />
-      <Content.Components />
+      <ContentPrivacy.Components />
       <Footer.Components />
     </div>
   );

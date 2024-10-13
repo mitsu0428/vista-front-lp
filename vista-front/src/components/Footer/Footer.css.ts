@@ -8,7 +8,7 @@ export const footerContainer = style({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  marginTop: "116px",
+  // marginTop: "116px",
 });
 
 // フッター内のテキストスタイル

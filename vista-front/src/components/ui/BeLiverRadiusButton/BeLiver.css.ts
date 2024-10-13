@@ -23,7 +23,24 @@ export const buttonStyle = style({
     background: "#fff",
     color: "#3BD0FF",
   },
+  "@media": {
+    "screen and (max-width: 768px)": {
+      width: "278px", // = 272(width) + 3(border) + 3(border)
+      height: "74px", // = 68(height) + 3(border) + 3(border)
+    },
+  },
 });
+
+export const headerButtonStyle = style([
+  buttonStyle,
+  {
+    width: "231px",
+    height: "65px",
+    boxShadow: "none",
+    border: "none",
+    borderRadius: "0",
+  },
+]);
 
 export const textPrimary = style({
   fontFamily: "Passion One, sans-serif",
@@ -33,7 +50,20 @@ export const textPrimary = style({
   letterSpacing: "0.01em",
   textAlign: "left",
   margin: 0,
+  "@media": {
+    "screen and (max-width: 768px)": {
+      fontSize: "35px",
+    },
+  },
 });
+
+export const headerTextPrimary = style([
+  textPrimary,
+  {
+    fontSize: "34px",
+    lineHeight: "normal",
+  },
+]);
 
 export const textSecondary = style({
   fontFamily: "Noto Sans JP, sans-serif",
@@ -43,4 +73,17 @@ export const textSecondary = style({
   letterSpacing: "0.01em",
   textAlign: "left",
   margin: 0,
+  "@media": {
+    "screen and (max-width: 768px)": {
+      fontSize: "16px",
+      marginTop: "-10px",
+    },
+  },
 });
+
+export const headerTextSecondary = style([
+  textSecondary,
+  {
+    fontSize: "15px",
+  },
+]);

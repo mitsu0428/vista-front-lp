@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// import { BeLiver } from "../ui/BeLiverRadiusButton/main";
+import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as styles from "./Header.css";
 import { LogoImage } from "../../constants/image";
 import Link from "next/link";
@@ -17,24 +17,20 @@ export const Components: React.FC = () => {
     <div>
       <header className={styles.header}>
         <div className={styles.logoHeader}>
-          <img
-            src={LogoImage}
-            alt="Vistaのロゴ"
-            className={styles.logoImage}
-          />
+          <img src={LogoImage} alt="Vistaのロゴ" className={styles.logoImage} />
         </div>
-        <nav className={styles.nav}>
-          <Link href="/">ABOUT</Link>
-          <Link href="/">RECRUIT</Link>
-          <Link href="/">募集要項</Link>
-          <Link href="/">COMPANY</Link>
-          <Link href="/privacy">PRIVACY POLICY</Link>
-        </nav>
+        <div className={styles.navWrapper}>
+          <nav className={styles.nav}>
+            <Link href="/">ABOUT</Link>
+            <Link href="/">RECRUIT</Link>
+            <Link href="/">募集要項</Link>
+            <Link href="/">COMPANY</Link>
+            <Link href="/privacy">PRIVACY POLICY</Link>
+          </nav>
+          <BeLiver isHeader />
+        </div>
       </header>
-      <button
-        className={styles.hamburgerButton}
-        onClick={toggleMenu}
-      >
+      <button className={styles.hamburgerButton} onClick={toggleMenu}>
         <div className={isMenuOpen ? styles.bar1Open : styles.bar1}></div>
         <div className={isMenuOpen ? styles.bar2Open : styles.bar2}></div>
         <div className={isMenuOpen ? styles.bar3Open : styles.bar3}></div>
@@ -49,10 +45,7 @@ export const Components: React.FC = () => {
                 className={styles.logoImage}
               />
             </div>
-            <button
-              className={styles.closeButton}
-              onClick={toggleMenu}
-            >
+            <button className={styles.closeButton} onClick={toggleMenu}>
               ×
             </button>
           </div>
@@ -60,7 +53,7 @@ export const Components: React.FC = () => {
           <Link href="/">RECRUIT</Link>
           <Link href="/">募集要項</Link>
           <Link href="/">COMPANY</Link>
-          <Link href="/">PRIVACY POLICY</Link>
+          <Link href="/privacy">PRIVACY POLICY</Link>
         </div>
       )}
     </div>
