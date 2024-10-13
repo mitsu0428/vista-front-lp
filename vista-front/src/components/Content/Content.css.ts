@@ -105,6 +105,7 @@ export const message = style({
 });
 export const subtitleWrapper = style({
   position: "absolute",
+  width: "100%",
   top: "110px",
 });
 export const aboutUsSubtitleWrapper = style({
