@@ -46,11 +46,19 @@ export const PinkNotFillSubTitleWithBorder: React.FC<SubtitleProps> = ({
   marginLeft,
   textAlign,
   children,
+  lineHeight,
 }) => {
   return (
     <h2
       className={PinkNotFillStyleWithBorderTextLeft}
-      style={{ fontSize, marginTop, marginBottom, marginLeft, textAlign }}
+      style={{
+        fontSize,
+        marginTop,
+        marginBottom,
+        marginLeft,
+        textAlign,
+        lineHeight,
+      }}
     >
       {children}
     </h2>

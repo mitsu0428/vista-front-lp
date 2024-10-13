@@ -57,6 +57,7 @@ export const hamburgerButton = style({
   position: "absolute",
   top: "0",
   right: "0",
+  zIndex: "10",
   display: "none",
   flexDirection: "column",
   justifyContent: "center",

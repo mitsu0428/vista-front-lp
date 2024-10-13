@@ -16,7 +16,9 @@ export const PinkFillStyleTextCenter = style([
   baseSubtitleStyle,
   {
     textAlign: "center",
-    color: "#EB5C96",
+    color: "#F27EAE",
+    // TODO: 下記colorのFigmaでの使用箇所がわからなかったので確認
+    // color: "#EB5C96",
     border: "none",
   },
 ]);
@@ -26,7 +28,9 @@ export const PinkFillStyleTextLeft = style([
   baseSubtitleStyle,
   {
     textAlign: "left",
-    color: "#EB5C96",
+    color: "#F27EAE",
+    // TODO: 下記colorのFigmaでの使用箇所がわからなかったので確認
+    // color: "#EB5C96",
     border: "none",
   },
 ]);

@@ -1,8 +1,24 @@
 import { style } from "@vanilla-extract/css";
 
+export const pcOnly = style({
+  padding: "0 0 116px",
+  "@media": {
+    "screen and (max-width: 768px)": {
+      display: "none",
+    },
+  },
+});
+export const spOnly = style({
+  "@media": {
+    "screen and (min-width: 769px)": {
+      display: "none",
+    },
+  },
+});
 export const mainContent = style({
   background: "#FBFBFB",
 });
+// PC
 export const mainVisualWrapper = style({
   margin: "65px 0 0 0",
   position: "relative",
@@ -46,7 +62,6 @@ export const introductionDescriptionDetail = style({
   letterSpacing: "0.54px",
 });
 export const introduction2Wrapper = style({
-  // margin: "-55px 0 0 0",
   position: "relative",
   zIndex: "2",
 });
@@ -62,7 +77,6 @@ export const aboutUs = style({
 });
 export const flowWrapper = style({
   position: "relative",
-  // padding: "193px 0 105px 0",
 });
 export const flow = style({
   width: "684px",
@@ -118,6 +132,7 @@ export const messageSubtitleWrapper = style({
   top: "0",
   left: "113px",
 });
+
 export const followButtonFieldWrapper = style({
   width: "472px",
   position: "absolute",
@@ -126,7 +141,8 @@ export const followButtonFieldWrapper = style({
 });
 export const followButtonField = style({
   display: "flex",
-  justifyContent: "space-between",
+  // justifyContent: "space-between",
+  columnGap: "8px",
   margin: "7px 0 0",
 });
 export const beLiverWrapper = style({
@@ -138,3 +154,174 @@ export const beLiverWrapper = style({
   // bottom: "54px",
   margin: "0 auto",
 });
+
+// SP
+export const mainVisualWrapperSP = style([
+  mainVisualWrapper,
+  {
+    marginTop: "0",
+    paddingBottom: "87px",
+  },
+]);
+export const introductionWrapperSP = style([
+  introductionWrapper,
+  {
+    margin: "0",
+  },
+]);
+export const introductionDescriptionWrapperSP = style([
+  introductionDescriptionWrapper,
+  {
+    padding: "35px",
+  },
+]);
+export const introductionDescriptionMainSP = style([
+  introductionDescriptionMain,
+  {
+    width: "100%",
+    fontSize: "18px",
+    lineHeight: "24px" /* 152% */,
+    letterSpacing: "0.54px",
+  },
+]);
+export const introductionDescriptionVistaSP = style([
+  {
+    color: "#F27EAE",
+    margin: "8px 0 0",
+    textAlign: "center",
+    fontFamily: "Noto Sans JP",
+    fontSize: "20px",
+    fontStyle: "normal",
+    fontWeight: "700",
+    lineHeight: "22px" /* 110% */,
+    letterSpacing: "0.6px",
+  },
+]);
+export const introductionDescriptionDetailSP = style([
+  introductionDescriptionDetail,
+  {
+    width: "100%",
+    margin: "21px 0 0",
+    fontSize: "14px",
+    fontWeight: "400",
+    lineHeight: "24px",
+    letterSpacing: "0.28px",
+  },
+]);
+export const introduction2WrapperSP = style([introduction2Wrapper]);
+export const aboutUsWrapperSP = style([
+  aboutUsWrapper,
+  {
+    margin: "0",
+  },
+]);
+export const flowWrapperSP = style([
+  flowWrapper,
+  {
+    // margin: "0",
+    margin: "35px 24px 71px",
+  },
+]);
+export const flowSP = style([
+  flow,
+  {
+    display: "block",
+    width: "100%",
+    margin: "0",
+  },
+]);
+export const requirementsWrapperSP = style([
+  requirementsWrapper,
+  {
+    // margin: "0",
+    // margin: "35px 0 71px",
+  },
+]);
+export const requirementsSP = style([
+  requirements,
+  {
+    // display: "block",
+    // width: "100%",
+    margin: "0 0 143px",
+  },
+]);
+export const faqWrapperSP = style([
+  faqWrapper,
+  {
+    // display: "block",
+    // width: "100%",
+    // margin: "0 0 143px",
+  },
+]);
+export const faqSP = style([
+  faq,
+  {
+    // display: "block",
+    // width: "100%",
+    margin: "0 0 135px",
+  },
+]);
+export const messageWrapperSP = style([
+  messageWrapper,
+  {
+    margin: "0",
+  },
+]);
+export const subtitleWrapperSP = style([
+  subtitleWrapper,
+  {
+    top: "0",
+  },
+]);
+export const aboutUsSubtitleWrapperSP = style([
+  aboutUsSubtitleWrapper,
+  {
+    top: "90px",
+    left: "28px",
+  },
+]);
+export const flowSubtitleWrapperSP = style([
+  flowSubtitleWrapper,
+  {
+    position: "static",
+    margin: "0 0 24px",
+  },
+]);
+export const requirementsSubtitleWrapperSP = style([
+  requirementsSubtitleWrapper,
+  {
+    position: "static",
+    margin: "0 27px 15px",
+  },
+]);
+export const faqSubtitleWrapperSP = style([
+  faqSubtitleWrapper,
+  {
+    position: "static",
+    margin: "0 27px 25px",
+  },
+]);
+export const messageSubtitleWrapperSP = style([
+  messageSubtitleWrapper,
+  {
+    top: "76px",
+    left: "27px",
+  },
+]);
+export const followButtonFieldWrapperSP = style([
+  followButtonFieldWrapper,
+  {
+    width: "207px",
+    top: "1070px",
+    left: "97px",
+  },
+]);
+export const followButtonFieldSP = style([
+  followButtonField,
+  {
+    display: "flex",
+    flexDirection: "column",
+    rowGap: "11px",
+    marginTop: "11px",
+  },
+]);
