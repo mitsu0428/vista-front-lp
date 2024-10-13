@@ -1,8 +1,8 @@
 export const Images = {
-  MainVisual: {
-    pc: "/assets/1_MainVisual.png",
-    sp: "/assets/1_MainVisual_SP.png",
-  },
+  // MainVisual: {
+  //   pc: "/assets/1_MainVisual.png",
+  //   sp: "/assets/1_MainVisual_SP.png",
+  // },
   Introduction: {
     pc: "/assets/2_HikaruUranishi.png",
     sp: "/assets/2_HikaruUranishi_SP.png",
