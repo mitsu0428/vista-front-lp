@@ -39,6 +39,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="144px"
               textAlign="center"
+              marginTop="40px"
               fontClassName={GoogleFont.passWithAnotherClass}
             >
               HIKARU
@@ -46,6 +47,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkNotFillSubTitleWithBorder
               fontSize="144px"
               textAlign="center"
+              marginTop="-40px"
               fontClassName={GoogleFont.passWithAnotherClass}
             >
               URANISHI
@@ -97,7 +99,10 @@ export const Components: React.FC = () => {
             >
               FLOW
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText marginTop="-12px">
+            <TextComponents.PinkNormalText
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               所属までの流れ
             </TextComponents.PinkNormalText>
           </div>
@@ -111,7 +116,10 @@ export const Components: React.FC = () => {
             >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText marginTop="-12px">
+            <TextComponents.PinkNormalText
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               募集要項
             </TextComponents.PinkNormalText>
           </div>
@@ -132,7 +140,10 @@ export const Components: React.FC = () => {
             >
               FAQ
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText marginTop="-12px">
+            <TextComponents.PinkNormalText
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               よくある質問
             </TextComponents.PinkNormalText>
           </div>
@@ -149,7 +160,10 @@ export const Components: React.FC = () => {
             >
               MESSAGE
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText marginTop="-12px">
+            <TextComponents.PinkNormalText
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>
@@ -240,7 +254,11 @@ export const Components: React.FC = () => {
             >
               ABOUT US
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText fontSize="18px" marginTop="-12px">
+            <TextComponents.PinkNormalText
+              fontSize="18px"
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               Vistaってどんな事務所？
             </TextComponents.PinkNormalText>
           </div>
@@ -255,7 +273,11 @@ export const Components: React.FC = () => {
             >
               FLOW
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText fontSize="18px" marginTop="-12px">
+            <TextComponents.PinkNormalText
+              fontSize="18px"
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               所属までの流れ
             </TextComponents.PinkNormalText>
           </div>
@@ -270,7 +292,11 @@ export const Components: React.FC = () => {
             >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText fontSize="18px" marginTop="-12px">
+            <TextComponents.PinkNormalText
+              fontSize="18px"
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               募集要項
             </TextComponents.PinkNormalText>
           </div>
@@ -292,7 +318,11 @@ export const Components: React.FC = () => {
             >
               FAQ
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText fontSize="18px" marginTop="-12px">
+            <TextComponents.PinkNormalText
+              fontSize="18px"
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               よくある質問
             </TextComponents.PinkNormalText>
           </div>
@@ -310,7 +340,11 @@ export const Components: React.FC = () => {
             >
               MESSAGE
             </SubtitleComponents.PinkFillSubTitle>
-            <TextComponents.PinkNormalText fontSize="18px" marginTop="-12px">
+            <TextComponents.PinkNormalText
+              fontSize="18px"
+              marginTop="-12px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>

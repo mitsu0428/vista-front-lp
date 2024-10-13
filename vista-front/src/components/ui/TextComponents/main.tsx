@@ -7,6 +7,7 @@ type SubtitleProps = {
   marginTop?: string;
   marginLeft?: string;
   marginBottom?: string;
+  fontClassName?: string;
 };
 
 // MEMO: ピンク文字のサブタイトルコンポーネント
@@ -16,10 +17,11 @@ export const PinkNormalText: React.FC<SubtitleProps> = ({
   marginLeft,
   marginBottom,
   children,
+  fontClassName,
 }) => {
   return (
     <p
-      className={BaseTextStyle}
+      className={BaseTextStyle + fontClassName}
       style={{ fontSize, marginTop, marginBottom, marginLeft }}
     >
       {children}
