@@ -105,6 +105,7 @@ export const message = style({
 });
 export const subtitleWrapper = style({
   position: "absolute",
+  width: "100%",
   top: "110px",
 });
 export const aboutUsSubtitleWrapper = style({
@@ -136,8 +137,8 @@ export const messageSubtitleWrapper = style({
 export const followButtonFieldWrapper = style({
   width: "472px",
   position: "absolute",
-  top: "1033px",
-  left: "672px",
+  bottom: "134px",
+  right: "136px",
 });
 export const followButtonField = style({
   display: "flex",
@@ -218,7 +219,6 @@ export const aboutUsWrapperSP = style([
 export const flowWrapperSP = style([
   flowWrapper,
   {
-    // margin: "0",
     margin: "35px 24px 71px",
   },
 ]);

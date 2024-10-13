@@ -10,6 +10,7 @@ export const header = style({
   justifyContent: "space-between",
   alignItems: "center",
   padding: "0 0 0 20px",
+
   "@media": {
     "screen and (max-width: 768px)": {
       display: "none",
@@ -35,11 +36,12 @@ export const logoImage = style({
 
 export const nav = style({
   display: "flex",
+  alignItems: "center",
   gap: "26px",
   fontSize: "20px",
   color: "#F276AA",
-  fontFamily: "Passion One, sans-serif",
   margin: "0 32px 0 0",
+
   "@media": {
     "screen and (max-width: 768px)": {
       display: "none",
@@ -117,7 +119,6 @@ export const menu = style({
   padding: "20px",
   fontSize: "17px",
   color: "#F276AA",
-  fontFamily: "Noto Sans JP, sans-serif",
   zIndex: "10",
   "@media": {
     "screen and (min-width: 769px)": {

@@ -43,7 +43,6 @@ export const headerButtonStyle = style([
 ]);
 
 export const textPrimary = style({
-  fontFamily: "Passion One, sans-serif",
   fontSize: "54px",
   fontWeight: 400,
   lineHeight: "59.45px",
@@ -66,7 +65,6 @@ export const headerTextPrimary = style([
 ]);
 
 export const textSecondary = style({
-  fontFamily: "Noto Sans JP, sans-serif",
   fontSize: "20px",
   fontWeight: 700,
   lineHeight: "24px",

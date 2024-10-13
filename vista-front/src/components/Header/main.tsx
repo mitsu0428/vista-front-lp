@@ -5,6 +5,7 @@ import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as styles from "./Header.css";
 import { LogoImage } from "../../constants/image";
 import Link from "next/link";
+import { GoogleFont } from "@/styles/font";
 
 export const Components: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +22,18 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.navWrapper}>
           <nav className={styles.nav}>
-            <Link href="/">ABOUT</Link>
-            <Link href="/">RECRUIT</Link>
-            <Link href="/">募集要項</Link>
-            <Link href="/">COMPANY</Link>
-            <Link href="/privacy">PRIVACY POLICY</Link>
+            <Link href="/" className={GoogleFont.passClass}>
+              ABOUT
+            </Link>
+            <Link href="/" className={GoogleFont.passClass}>
+              RECRUIT
+            </Link>
+            <Link href="/" className={GoogleFont.passClass}>
+              COMPANY
+            </Link>
+            <Link href="/privacy" className={GoogleFont.passClass}>
+              PRIVACY POLICY
+            </Link>
           </nav>
           <BeLiver isHeader />
         </div>
@@ -49,11 +57,18 @@ export const Components: React.FC = () => {
               ×
             </button>
           </div>
-          <Link href="/">ABOUT</Link>
-          <Link href="/">RECRUIT</Link>
-          <Link href="/">募集要項</Link>
-          <Link href="/">COMPANY</Link>
-          <Link href="/privacy">PRIVACY POLICY</Link>
+          <Link href="/" className={GoogleFont.passClass}>
+            ABOUT
+          </Link>
+          <Link href="/" className={GoogleFont.passClass}>
+            RECRUIT
+          </Link>
+          <Link href="/" className={GoogleFont.passClass}>
+            COMPANY
+          </Link>
+          <Link href="/privacy" className={GoogleFont.passClass}>
+            PRIVACY POLICY
+          </Link>
         </div>
       )}
     </div>
