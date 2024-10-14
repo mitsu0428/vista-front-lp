@@ -1,38 +1,38 @@
 export const Images = {
   // MainVisual: {
-  //   pc: "/assets/1_MainVisual.png",
-  //   sp: "/assets/1_MainVisual_SP.png",
+  //   pc: "/assets/webp/1_MainVisual.webp",
+  //   sp: "/assets/webp/1_MainVisual_SP.webp",
   // },
   Introduction: {
-    pc: "/assets/2_HikaruUranishi.png",
-    sp: "/assets/2_HikaruUranishi_SP.png",
+    pc: "/assets/webp/2_HikaruUranishi.webp",
+    sp: "/assets/webp/2_HikaruUranishi_SP.webp",
   },
   Introduction2: {
-    pc: "/assets/3_HikaruUranishiPhotos.png",
-    sp: "/assets/3_HikaruUranishiPhotos_SP.png",
+    pc: "/assets/webp/3_HikaruUranishiPhotos.webp",
+    sp: "/assets/webp/3_HikaruUranishiPhotos_SP.webp",
   },
   AboutUs: {
-    pc: "/assets/4_AboutArea.png",
-    sp: "/assets/4_AboutArea_SP.png",
+    pc: "/assets/webp/4_AboutArea.webp",
+    sp: "/assets/webp/4_AboutArea_SP.webp",
   },
   Flow: {
-    pc: "/assets/5_Flow.png",
-    sp: "/assets/5_Flow_SP.png",
+    pc: "/assets/webp/5_Flow.webp",
+    sp: "/assets/webp/5_Flow_SP.webp",
   },
   Requirements: {
-    pc: "/assets/6_Requirements.png",
-    sp: "/assets/6_Requirements_SP.png",
+    pc: "/assets/webp/6_Requirements.webp",
+    sp: "/assets/webp/6_Requirements_SP.webp",
   },
   Faq: {
-    pc: "/assets/7_Faq.png",
-    sp: "/assets/7_Faq_SP.png",
+    pc: "/assets/webp/7_Faq.webp",
+    sp: "/assets/webp/7_Faq_SP.webp",
   },
   Message: {
-    pc: "/assets/8_Message.png",
-    sp: "/assets/8_Message_SP.png",
+    pc: "/assets/webp/8_Message.webp",
+    sp: "/assets/webp/8_Message_SP.webp",
   },
 };
 
-export const LogoImage = "/assets/logo.png";
-export const TiktokImage = "/assets/tiktok.png";
-export const InstagramImage = "/assets/instagram.png";
+export const LogoImage = "/assets/webp/logo.webp";
+export const TiktokImage = "/assets/webp/tiktok.webp";
+export const InstagramImage = "/assets/webp/instagram.webp";
