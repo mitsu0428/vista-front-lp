@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier --write \"src/**/*.{ts,tsx,js,jsx}\""
+    "format": "biome check --write ./src",
+    "format:import": "biome check --apply ./src"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.16.0",
@@ -16,6 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

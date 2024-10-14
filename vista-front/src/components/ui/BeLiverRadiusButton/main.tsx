@@ -1,11 +1,11 @@
-import React from "react";
 import { GoogleFont } from "@/styles/font";
+import type React from "react";
 import {
-  headerButtonStyle,
   buttonStyle,
+  headerButtonStyle,
   headerTextPrimary,
-  textPrimary,
   headerTextSecondary,
+  textPrimary,
   textSecondary,
 } from "./BeLiver.css";
 
