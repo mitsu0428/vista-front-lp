@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 // フッター全体のスタイル
 export const footerContainer = style({
@@ -9,7 +9,7 @@ export const footerContainer = style({
   alignItems: "center",
   justifyContent: "center",
   // marginTop: "116px",
-});
+})
 
 // フッター内のテキストスタイル
 export const footerTextStyle = style({
@@ -19,4 +19,4 @@ export const footerTextStyle = style({
   lineHeight: "16.94px",
   textAlign: "center",
   color: "#FFFFFF",
-});
+})

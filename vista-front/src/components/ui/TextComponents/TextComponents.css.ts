@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const BaseTextStyle = style({
   fontFamily: "Noto Sans JP",
@@ -9,4 +9,4 @@ export const BaseTextStyle = style({
   letterSpacing: "0.01em",
   textAlign: "left",
   color: "#F27EAE",
-});
+})

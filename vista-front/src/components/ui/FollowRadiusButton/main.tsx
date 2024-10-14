@@ -1,10 +1,10 @@
-import { InstagramImage, TiktokImage } from "@/constants/image";
-import type React from "react";
-import { buttonStyle, iconStyle, textPrimary } from "./Follow.css";
+import { InstagramImage, TiktokImage } from "@/constants/image"
+import type React from "react"
+import { buttonStyle, iconStyle, textPrimary } from "./Follow.css"
 
 type FollowProps = {
-  followType: "tiktok" | "instagram";
-};
+  followType: "tiktok" | "instagram"
+}
 export const Follow: React.FC<FollowProps> = ({ followType }) => {
   const buttonInfo =
     followType === "tiktok"
@@ -21,9 +21,9 @@ export const Follow: React.FC<FollowProps> = ({ followType }) => {
             alt: "Instagram",
           },
           text: "Official Instagram",
-        };
+        }
   return (
-    <button className={buttonStyle}>
+    <button className={buttonStyle} type="button">
       <img
         src={buttonInfo.image.src}
         alt={buttonInfo.image.alt}
@@ -31,5 +31,5 @@ export const Follow: React.FC<FollowProps> = ({ followType }) => {
       />
       <span className={textPrimary}>{buttonInfo.text}</span>
     </button>
-  );
-};
+  )
+}

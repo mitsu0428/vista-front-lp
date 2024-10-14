@@ -1,5 +1,5 @@
-import { GoogleFont } from "@/styles/font";
-import type React from "react";
+import { GoogleFont } from "@/styles/font"
+import type React from "react"
 import {
   buttonStyle,
   headerButtonStyle,
@@ -7,15 +7,18 @@ import {
   headerTextSecondary,
   textPrimary,
   textSecondary,
-} from "./BeLiver.css";
+} from "./BeLiver.css"
 
 type BeLiverProps = {
-  isHeader?: boolean;
-};
+  isHeader?: boolean
+}
 
 export const BeLiver: React.FC<BeLiverProps> = ({ isHeader }) => {
   return (
-    <button className={isHeader ? headerButtonStyle : buttonStyle}>
+    <button
+      className={isHeader ? headerButtonStyle : buttonStyle}
+      type="button"
+    >
       <span
         className={
           isHeader
@@ -35,5 +38,5 @@ export const BeLiver: React.FC<BeLiverProps> = ({ isHeader }) => {
         ライバーになる！
       </span>
     </button>
-  );
-};
+  )
+}

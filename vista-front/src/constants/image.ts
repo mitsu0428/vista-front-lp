@@ -31,8 +31,8 @@ export const Images = {
     pc: "/assets/webp/8_Message.webp",
     sp: "/assets/webp/8_Message_SP.webp",
   },
-};
+}
 
-export const LogoImage = "/assets/webp/logo.webp";
-export const TiktokImage = "/assets/webp/tiktok.webp";
-export const InstagramImage = "/assets/webp/instagram.webp";
+export const LogoImage = "/assets/webp/logo.webp"
+export const TiktokImage = "/assets/webp/tiktok.webp"
+export const InstagramImage = "/assets/webp/instagram.webp"

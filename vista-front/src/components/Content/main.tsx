@@ -1,17 +1,17 @@
-"use client";
+"use client"
 
-import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
-import * as TextComponents from "@/components/ui/TextComponents/main";
-import { Images } from "@/constants/image";
-import { ImageComponents } from "@/constants/imageComponent";
-import { GoogleFont } from "@/styles/font";
-import type React from "react";
-import { BeLiver } from "../ui/BeLiverRadiusButton/main";
-import { Follow } from "../ui/FollowRadiusButton/main";
-import * as styles from "./Content.css";
+import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main"
+import * as TextComponents from "@/components/ui/TextComponents/main"
+import { Images } from "@/constants/image"
+import { ImageComponents } from "@/constants/imageComponent"
+import { GoogleFont } from "@/styles/font"
+import type React from "react"
+import { BeLiver } from "../ui/BeLiverRadiusButton/main"
+import { Follow } from "../ui/FollowRadiusButton/main"
+import * as styles from "./Content.css"
 
 export const Components: React.FC = () => {
-  const { Flow, Requirements, Faq } = Images;
+  const { Flow, Requirements, Faq } = Images
 
   return (
     <div className={styles.mainContent}>
@@ -333,5 +333,5 @@ export const Components: React.FC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

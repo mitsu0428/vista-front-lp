@@ -1,13 +1,13 @@
-import type React from "react";
-import { NormalTextStyle } from "./TextPrivacyComponents.css";
+import type React from "react"
+import { NormalTextStyle } from "./TextPrivacyComponents.css"
 
 type NormalTextProps = {
-  children: React.ReactNode;
-  marginTop?: string;
-  marginLeft?: string;
-  marginBottom?: string;
-  fontClassName?: string;
-};
+  children: React.ReactNode
+  marginTop?: string
+  marginLeft?: string
+  marginBottom?: string
+  fontClassName?: string
+}
 
 // MEMO: 黒文字のテキストコンポーネント
 export const NormalText: React.FC<NormalTextProps> = ({
@@ -24,5 +24,5 @@ export const NormalText: React.FC<NormalTextProps> = ({
     >
       {children}
     </p>
-  );
-};
+  )
+}

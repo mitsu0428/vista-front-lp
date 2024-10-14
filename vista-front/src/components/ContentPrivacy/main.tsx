@@ -1,11 +1,11 @@
-"use client";
+"use client"
 
-import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
-import * as TextComponents from "@/components/ui/TextComponents/main";
-import { GoogleFont } from "@/styles/font";
-import type React from "react";
-import { NormalText } from "../ui/TextPrivacyComponents/main";
-import * as styles from "./ContentPrivacy.css";
+import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main"
+import * as TextComponents from "@/components/ui/TextComponents/main"
+import { GoogleFont } from "@/styles/font"
+import type React from "react"
+import { NormalText } from "../ui/TextPrivacyComponents/main"
+import * as styles from "./ContentPrivacy.css"
 
 export const Components: React.FC = () => {
   return (
@@ -264,5 +264,5 @@ export const Components: React.FC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

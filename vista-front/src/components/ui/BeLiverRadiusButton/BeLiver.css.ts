@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const buttonStyle = style({
   display: "flex",
@@ -29,7 +29,7 @@ export const buttonStyle = style({
       height: "74px", // = 68(height) + 3(border) + 3(border)
     },
   },
-});
+})
 
 export const headerButtonStyle = style([
   buttonStyle,
@@ -40,7 +40,7 @@ export const headerButtonStyle = style([
     border: "none",
     borderRadius: "0",
   },
-]);
+])
 
 export const textPrimary = style({
   fontSize: "54px",
@@ -54,7 +54,7 @@ export const textPrimary = style({
       fontSize: "35px",
     },
   },
-});
+})
 
 export const headerTextPrimary = style([
   textPrimary,
@@ -62,7 +62,7 @@ export const headerTextPrimary = style([
     fontSize: "34px",
     lineHeight: "normal",
   },
-]);
+])
 
 export const textSecondary = style({
   fontSize: "20px",
@@ -77,11 +77,11 @@ export const textSecondary = style({
       marginTop: "-10px",
     },
   },
-});
+})
 
 export const headerTextSecondary = style([
   textSecondary,
   {
     fontSize: "15px",
   },
-]);
+])

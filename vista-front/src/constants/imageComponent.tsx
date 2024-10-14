@@ -1,27 +1,27 @@
-"use client";
+"use client"
 
-import Image from "next/image";
+import Image from "next/image"
 
-import MainVisualImage from "../../public/assets/webp/1_MainVisual.webp";
-import MainVisualImageSP from "../../public/assets/webp/1_MainVisual_SP.webp";
-import IntroductionPC from "../../public/assets/webp/2_HikaruUranishi.webp";
-import IntroductionSP from "../../public/assets/webp/2_HikaruUranishi_SP.webp";
-import Introduction2PC from "../../public/assets/webp/3_HikaruUranishiPhotos.webp";
-import Introduction2SP from "../../public/assets/webp/3_HikaruUranishiPhotos_SP.webp";
-import AboutUsPC from "../../public/assets/webp/4_AboutArea.webp";
-import AboutUsSP from "../../public/assets/webp/4_AboutArea_SP.webp";
-import FlowPC from "../../public/assets/webp/5_Flow.webp";
-import FlowSP from "../../public/assets/webp/5_Flow_SP.webp";
-import RequirementsPC from "../../public/assets/webp/6_Requirements.webp";
-import RequirementsSP from "../../public/assets/webp/6_Requirements_SP.webp";
-import FaqPC from "../../public/assets/webp/7_Faq.webp";
-import FaqSP from "../../public/assets/webp/7_Faq_SP.webp";
-import MessagePC from "../../public/assets/webp/8_Message.webp";
-import MessageSP from "../../public/assets/webp/8_Message_SP.webp";
+import MainVisualImage from "../../public/assets/webp/1_MainVisual.webp"
+import MainVisualImageSP from "../../public/assets/webp/1_MainVisual_SP.webp"
+import IntroductionPC from "../../public/assets/webp/2_HikaruUranishi.webp"
+import IntroductionSP from "../../public/assets/webp/2_HikaruUranishi_SP.webp"
+import Introduction2PC from "../../public/assets/webp/3_HikaruUranishiPhotos.webp"
+import Introduction2SP from "../../public/assets/webp/3_HikaruUranishiPhotos_SP.webp"
+import AboutUsPC from "../../public/assets/webp/4_AboutArea.webp"
+import AboutUsSP from "../../public/assets/webp/4_AboutArea_SP.webp"
+import FlowPC from "../../public/assets/webp/5_Flow.webp"
+import FlowSP from "../../public/assets/webp/5_Flow_SP.webp"
+import RequirementsPC from "../../public/assets/webp/6_Requirements.webp"
+import RequirementsSP from "../../public/assets/webp/6_Requirements_SP.webp"
+import FaqPC from "../../public/assets/webp/7_Faq.webp"
+import FaqSP from "../../public/assets/webp/7_Faq_SP.webp"
+import MessagePC from "../../public/assets/webp/8_Message.webp"
+import MessageSP from "../../public/assets/webp/8_Message_SP.webp"
 
-import Instagram from "../../public/assets/webp/instagram.webp";
-import Logo from "../../public/assets/webp/logo.webp";
-import Tiktok from "../../public/assets/webp/tiktok.webp";
+import Instagram from "../../public/assets/webp/instagram.webp"
+import Logo from "../../public/assets/webp/logo.webp"
+import Tiktok from "../../public/assets/webp/tiktok.webp"
 
 export const ImageComponents = {
   MainVisual: {
@@ -122,11 +122,7 @@ export const ImageComponents = {
   },
   Faq: {
     pc: () => (
-      <Image
-        src={FaqPC}
-        alt="FAQ"
-        style={{ width: "100%", height: "100%" }}
-      />
+      <Image src={FaqPC} alt="FAQ" style={{ width: "100%", height: "100%" }} />
     ),
     sp: () => (
       <Image
@@ -152,24 +148,16 @@ export const ImageComponents = {
       />
     ),
   },
-};
+}
 
 // その他のロゴやアイコン画像
 export const LogoImage = () => (
-  <Image
-    src={Logo}
-    alt="Logo"
-    style={{ width: "100%", height: "100%" }}
-  />
-);
+  <Image src={Logo} alt="Logo" style={{ width: "100%", height: "100%" }} />
+)
 
 export const TiktokImage = () => (
-  <Image
-    src={Tiktok}
-    alt="Tiktok"
-    style={{ width: "100%", height: "100%" }}
-  />
-);
+  <Image src={Tiktok} alt="Tiktok" style={{ width: "100%", height: "100%" }} />
+)
 
 export const InstagramImage = () => (
   <Image
@@ -177,4 +165,4 @@ export const InstagramImage = () => (
     alt="Instagram"
     style={{ width: "100%", height: "100%" }}
   />
-);
+)

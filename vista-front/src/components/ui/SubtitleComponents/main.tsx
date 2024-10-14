@@ -1,21 +1,21 @@
-import type React from "react";
+import type React from "react"
 import {
   PinkFillStyleTextCenter,
   PinkFillStyleTextLeft,
   PinkNotFillStyleTextLeft,
   PinkNotFillStyleWithBorderTextLeft,
-} from "./SubtitleComponents.css";
+} from "./SubtitleComponents.css"
 
 type SubtitleProps = {
-  fontSize: string;
-  children: React.ReactNode;
-  textAlign?: "center" | "left";
-  marginTop?: string;
-  marginLeft?: string;
-  marginBottom?: string;
-  lineHeight?: string;
-  fontClassName?: string;
-};
+  fontSize: string
+  children: React.ReactNode
+  textAlign?: "center" | "left"
+  marginTop?: string
+  marginLeft?: string
+  marginBottom?: string
+  lineHeight?: string
+  fontClassName?: string
+}
 
 // 濃いピンク文字のサブタイトルコンポーネント
 export const PinkFillSubTitle: React.FC<SubtitleProps> = ({
@@ -39,8 +39,8 @@ export const PinkFillSubTitle: React.FC<SubtitleProps> = ({
     >
       {children}
     </h2>
-  );
-};
+  )
+}
 
 // 薄いピンク文字＋ボーダー付きのサブタイトルコンポーネント
 export const PinkNotFillSubTitleWithBorder: React.FC<SubtitleProps> = ({
@@ -67,8 +67,8 @@ export const PinkNotFillSubTitleWithBorder: React.FC<SubtitleProps> = ({
     >
       {children}
     </h2>
-  );
-};
+  )
+}
 
 // 薄いピンク文字＋ボーダーなしのサブタイトルコンポーネント
 export const PinkNotFillSubTitle: React.FC<SubtitleProps> = ({
@@ -86,5 +86,5 @@ export const PinkNotFillSubTitle: React.FC<SubtitleProps> = ({
     >
       {children}
     </h2>
-  );
-};
+  )
+}

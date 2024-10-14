@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const NormalTextStyle = style({
   fontFamily: "Noto Sans JP",
@@ -16,4 +16,4 @@ export const NormalTextStyle = style({
       lineHeight: "24px",
     },
   },
-});
+})

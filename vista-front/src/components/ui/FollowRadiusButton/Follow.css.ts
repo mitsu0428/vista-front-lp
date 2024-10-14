@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style } from "@vanilla-extract/css"
 
 export const buttonStyle = style({
   display: "flex",
@@ -16,7 +16,7 @@ export const buttonStyle = style({
       height: "46px",
     },
   },
-});
+})
 
 export const iconStyle = style({
   display: "block",
@@ -26,7 +26,7 @@ export const iconStyle = style({
       width: "21px",
     },
   },
-});
+})
 export const textPrimary = style({
   display: "block",
   fontFamily: "Passion One, sans-serif",
@@ -41,4 +41,4 @@ export const textPrimary = style({
       margin: "0 0 0 9px",
     },
   },
-});
+})
