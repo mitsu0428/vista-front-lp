@@ -3,36 +3,21 @@
 import * as SubtitleComponents from "@/components/ui/SubtitleComponents/main";
 import * as TextComponents from "@/components/ui/TextComponents/main";
 import { Images } from "@/constants/image";
+import { ImageComponents } from "@/constants/imageComponent";
 import { GoogleFont } from "@/styles/font";
 import type React from "react";
 import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import { Follow } from "../ui/FollowRadiusButton/main";
 import * as styles from "./Content.css";
 
-import Image from "next/image";
-import MainVisualImage from "../../../public/assets/1_MainVisual.png";
-import MainVisualImageSP from "../../../public/assets/1_MainVisual_SP.png";
-
 export const Components: React.FC = () => {
-  const {
-    Introduction,
-    Introduction2,
-    AboutUs,
-    Flow,
-    Requirements,
-    Faq,
-    Message,
-  } = Images;
+  const { Flow, Requirements, Faq } = Images;
 
   return (
     <div className={styles.mainContent}>
       <div className={styles.pcOnly}>
         <div className={styles.mainVisualWrapper}>
-          <Image
-            src={MainVisualImage}
-            alt="MainVisual"
-            style={{ width: "100%", height: "100%" }}
-          />
+          <ImageComponents.MainVisual.pc />
           <div className={styles.beLiverWrapper} style={{ bottom: "54px" }}>
             <BeLiver />
           </div>
@@ -56,11 +41,7 @@ export const Components: React.FC = () => {
               URANISHI
             </SubtitleComponents.PinkNotFillSubTitleWithBorder>
           </div>
-          <img
-            src={Introduction.pc}
-            alt="Introduction"
-            className={styles.introduction}
-          />
+          <ImageComponents.Introduction.pc />
         </div>
         <div className={styles.introductionDescriptionWrapper}>
           <div className={styles.introductionDescriptionMain}>
@@ -77,11 +58,7 @@ export const Components: React.FC = () => {
           </div>
         </div>
         <div className={styles.introduction2Wrapper}>
-          <img
-            src={Introduction2.pc}
-            alt="Introduction2"
-            className={styles.introduction2}
-          />
+          <ImageComponents.Introduction2.pc />
         </div>
         <div className={styles.aboutUsWrapper}>
           {/* <div className={styles.aboutUsSubtitleWrapper}>
@@ -92,7 +69,7 @@ export const Components: React.FC = () => {
             Vistaってどんな事務所？
           </TextComponents.PinkNormalText>
         </div> */}
-          <img src={AboutUs.pc} alt="AboutUs" className={styles.aboutUs} />
+          <ImageComponents.AboutUs.pc />
         </div>
         <div className={styles.flowWrapper}>
           <div className={styles.flowSubtitleWrapper}>
@@ -170,7 +147,7 @@ export const Components: React.FC = () => {
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>
-          <img src={Message.pc} alt="Message" className={styles.message} />
+          <ImageComponents.Message.pc />
           <div className={styles.followButtonFieldWrapper}>
             <SubtitleComponents.PinkFillSubTitle
               fontSize="30px"
@@ -188,11 +165,7 @@ export const Components: React.FC = () => {
       </div>
       <div className={styles.spOnly}>
         <div className={styles.mainVisualWrapperSP}>
-          <Image
-            src={MainVisualImageSP}
-            alt="MainVisual"
-            style={{ width: "100%", height: "100%" }}
-          />
+          <ImageComponents.MainVisual.sp />
           <div className={styles.beLiverWrapper} style={{ bottom: "19px" }}>
             <BeLiver />
           </div>
@@ -216,11 +189,7 @@ export const Components: React.FC = () => {
               URANISHI
             </SubtitleComponents.PinkNotFillSubTitleWithBorder>
           </div>
-          <img
-            src={Introduction.sp}
-            alt="Introduction"
-            className={styles.introduction}
-          />
+          <ImageComponents.Introduction.sp />
         </div>
         <div className={styles.introductionDescriptionWrapperSP}>
           <div className={styles.introductionDescriptionMainSP}>
@@ -242,11 +211,7 @@ export const Components: React.FC = () => {
           </div>
         </div>
         <div className={styles.introduction2WrapperSP}>
-          <img
-            src={Introduction2.sp}
-            alt="Introduction2"
-            className={styles.introduction2}
-          />
+          <ImageComponents.Introduction2.sp />
         </div>
         <div className={styles.aboutUsWrapperSP}>
           <div className={styles.aboutUsSubtitleWrapperSP}>
@@ -265,7 +230,7 @@ export const Components: React.FC = () => {
               Vistaってどんな事務所？
             </TextComponents.PinkNormalText>
           </div>
-          <img src={AboutUs.sp} alt="AboutUs" className={styles.aboutUs} />
+          <ImageComponents.AboutUs.sp />
         </div>
         <div className={styles.flowWrapperSP}>
           <div className={styles.flowSubtitleWrapperSP}>
@@ -351,7 +316,7 @@ export const Components: React.FC = () => {
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>
-          <img src={Message.sp} alt="Message" className={styles.message} />
+          <ImageComponents.Message.sp />
           <div className={styles.followButtonFieldWrapperSP}>
             <SubtitleComponents.PinkFillSubTitle
               fontSize="30px"
