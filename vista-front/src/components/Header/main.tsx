@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as styles from "./Header.css";
-import { LogoImage } from "../../constants/image";
+import * as Image from "@/constants/image";
 import Link from "next/link";
 import { GoogleFont } from "@/styles/font";
 
@@ -18,7 +18,7 @@ export const Components: React.FC = () => {
     <div>
       <header className={styles.header}>
         <div className={styles.logoHeader}>
-          <img src={LogoImage} alt="Vistaのロゴ" className={styles.logoImage} />
+          <Image.LogoImage />
         </div>
         <div className={styles.navWrapper}>
           <nav className={styles.nav}>
@@ -47,11 +47,7 @@ export const Components: React.FC = () => {
         <div className={styles.menu}>
           <div className={styles.logoAndCloseButton}>
             <div className={styles.logoHamburger}>
-              <img
-                src={LogoImage}
-                alt="Vistaのロゴ"
-                className={styles.logoImage}
-              />
+              <Image.LogoImage />
             </div>
             <button className={styles.closeButton} onClick={toggleMenu}>
               ×
