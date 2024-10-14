@@ -1,11 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
+import { GoogleFont } from "@/styles/font";
+import Link from "next/link";
+import type React from "react";
+import { useState } from "react";
+import { LogoImage } from "../../constants/image";
 import { BeLiver } from "../ui/BeLiverRadiusButton/main";
 import * as styles from "./Header.css";
-import { LogoImage } from "../../constants/image";
-import Link from "next/link";
-import { GoogleFont } from "@/styles/font";
 
 export const Components: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
