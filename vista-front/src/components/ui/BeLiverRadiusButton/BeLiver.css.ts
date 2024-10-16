@@ -71,6 +71,7 @@ export const textSecondary = style({
   letterSpacing: "0.01em",
   textAlign: "left",
   margin: 0,
+  marginTop: "-9px",
   "@media": {
     "screen and (max-width: 768px)": {
       fontSize: "16px",

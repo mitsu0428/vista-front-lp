@@ -15,9 +15,11 @@ type BeLiverProps = {
 
 export const BeLiver: React.FC<BeLiverProps> = ({ isHeader }) => {
   return (
-    <button
+    <a
+      href="https://s.lmes.jp/landing-qr/2005905676-lQqWWKO5?uLand=42jxWI"
       className={isHeader ? headerButtonStyle : buttonStyle}
-      type="button"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <span
         className={
@@ -37,6 +39,6 @@ export const BeLiver: React.FC<BeLiverProps> = ({ isHeader }) => {
       >
         ライバーになる！
       </span>
-    </button>
+    </a>
   )
 }
