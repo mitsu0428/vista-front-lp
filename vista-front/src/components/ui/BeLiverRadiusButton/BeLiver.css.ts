@@ -75,7 +75,6 @@ export const textSecondary = style({
   "@media": {
     "screen and (max-width: 768px)": {
       fontSize: "16px",
-      marginTop: "-10px",
     },
   },
 })
