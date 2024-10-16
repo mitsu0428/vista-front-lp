@@ -18,6 +18,7 @@ export const Follow: React.FC<FollowProps> = ({
             alt: "Tiktok",
           },
           text: "Official TikTok",
+          link: "https://www.tiktok.com/@hikaru20910?_t=8qb1ukZA9Hc&_r=1",
         }
       : {
           image: {
@@ -25,15 +26,21 @@ export const Follow: React.FC<FollowProps> = ({
             alt: "Instagram",
           },
           text: "Official Instagram",
+          link: "https://www.instagram.com/uranishihikaru?igsh=eWU5bThxOGE3NWhu",
         }
   return (
-    <button className={buttonStyle} type="button">
+    <a
+      href={buttonInfo.link}
+      className={buttonStyle}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img
         src={buttonInfo.image.src}
         alt={buttonInfo.image.alt}
         className={iconStyle}
       />
       <span className={textPrimary + fontClassName}>{buttonInfo.text}</span>
-    </button>
+    </a>
   )
 }
