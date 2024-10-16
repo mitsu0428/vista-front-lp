@@ -184,6 +184,7 @@ export const Components: React.FC = () => {
           <div className={styles.subtitleWrapperSP}>
             <SubtitleComponents.PinkFillSubTitle
               fontSize="70px"
+              marginTop="24px"
               textAlign="center"
               lineHeight="normal"
               fontClassName={GoogleFont.passWithAnotherClass}
@@ -192,6 +193,7 @@ export const Components: React.FC = () => {
             </SubtitleComponents.PinkFillSubTitle>
             <SubtitleComponents.PinkNotFillSubTitleWithBorder
               fontSize="70px"
+              marginTop="-24px"
               textAlign="center"
               lineHeight="normal"
               fontClassName={GoogleFont.passWithAnotherClass}
@@ -327,19 +329,28 @@ export const Components: React.FC = () => {
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>
-          <ImageComponents.Message.sp />
-          <div className={styles.followButtonFieldWrapperSP}>
-            <SubtitleComponents.PinkFillSubTitle
-              fontSize="30px"
-              lineHeight="normal"
-              fontClassName={GoogleFont.passWithAnotherClass}
-            >
-              FOLLOW ME!
-            </SubtitleComponents.PinkFillSubTitle>
-            <div className={styles.followButtonFieldSP}>
-              <Follow followType="tiktok" />
-              <Follow followType="instagram" />
+          <ImageComponents.Message1.sp />
+          <div className={styles.afterMessageWrapperSP}>
+            <div className={styles.followButtonFieldWrapperSP}>
+              <SubtitleComponents.PinkFillSubTitle
+                fontSize="30px"
+                lineHeight="normal"
+                fontClassName={GoogleFont.passWithAnotherClass}
+              >
+                FOLLOW ME!
+              </SubtitleComponents.PinkFillSubTitle>
+              <div className={styles.followButtonFieldSP}>
+                <Follow
+                  followType="tiktok"
+                  fontClassName={GoogleFont.passWithAnotherClass}
+                />
+                <Follow
+                  followType="instagram"
+                  fontClassName={GoogleFont.passWithAnotherClass}
+                />
+              </div>
             </div>
+            <ImageComponents.Message2.sp />
           </div>
         </div>
       </div>
