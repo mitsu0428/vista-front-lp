@@ -118,6 +118,11 @@ export const flowSubtitleWrapper = style({
   top: "0",
   left: "116px",
 })
+export const flowDescription = style({
+  width: "100%",
+  display: "flex",
+  justifyContent: "center",
+})
 export const requirementsSubtitleWrapper = style({
   position: "absolute",
   top: "0",

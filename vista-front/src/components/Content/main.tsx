@@ -93,7 +93,9 @@ export const Components: React.FC = () => {
               所属までの流れ
             </TextComponents.PinkNormalText>
           </div>
-          <img src={Flow.pc} alt="Flow" className={styles.flow} />
+          <div className={styles.flowDescription}>
+            <img src={Flow.pc} alt="Flow" className={styles.flow} />
+          </div>
         </div>
         <div className={styles.requirementsWrapper}>
           <div className={styles.requirementsSubtitleWrapper}>
