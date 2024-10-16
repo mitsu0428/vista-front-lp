@@ -29,7 +29,6 @@ export const iconStyle = style({
 })
 export const textPrimary = style({
   display: "block",
-  fontFamily: "Passion One, sans-serif",
   fontSize: "20px",
   fontWeight: 400,
   lineHeight: "normal",
