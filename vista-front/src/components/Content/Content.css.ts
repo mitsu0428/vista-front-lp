@@ -313,14 +313,14 @@ export const messageSubtitleWrapperSP = style([
     left: "27px",
   },
 ])
-export const followButtonFieldWrapperSP = style([
-  followButtonFieldWrapper,
-  {
-    width: "207px",
-    top: "1070px",
-    left: "97px",
-  },
-])
+export const afterMessageWrapperSP = style({
+  marginTop: "-330px",
+})
+export const followButtonFieldWrapperSP = style({
+  position: "relative",
+  width: "100%",
+  marginLeft: "100px",
+})
 export const followButtonFieldSP = style([
   followButtonField,
   {
@@ -328,5 +328,6 @@ export const followButtonFieldSP = style([
     flexDirection: "column",
     rowGap: "11px",
     marginTop: "11px",
+    marginBottom: "24px",
   },
 ])

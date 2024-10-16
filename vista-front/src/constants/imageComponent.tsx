@@ -18,6 +18,8 @@ import FaqPC from "../../public/assets/webp/7_Faq.webp"
 import FaqSP from "../../public/assets/webp/7_Faq_SP.webp"
 import MessagePC from "../../public/assets/webp/8_Message.webp"
 import MessageSP from "../../public/assets/webp/8_Message_SP.webp"
+import MessageSP1 from "../../public/assets/webp/8_Message_SP1.webp"
+import MessageSP2 from "../../public/assets/webp/8_Message_SP2.webp"
 
 import Instagram from "../../public/assets/webp/instagram.webp"
 import Logo from "../../public/assets/webp/logo.webp"
@@ -144,6 +146,24 @@ export const ImageComponents = {
       <Image
         src={MessageSP}
         alt="Message SP"
+        style={{ width: "100%", height: "100%" }}
+      />
+    ),
+  },
+  Message1: {
+    sp: () => (
+      <Image
+        src={MessageSP1}
+        alt="Message SP1"
+        style={{ width: "100%", height: "100%" }}
+      />
+    ),
+  },
+  Message2: {
+    sp: () => (
+      <Image
+        src={MessageSP2}
+        alt="Message SP2"
         style={{ width: "100%", height: "100%" }}
       />
     ),
