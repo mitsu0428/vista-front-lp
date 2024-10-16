@@ -4,8 +4,12 @@ import { buttonStyle, iconStyle, textPrimary } from "./Follow.css"
 
 type FollowProps = {
   followType: "tiktok" | "instagram"
+  fontClassName?: string
 }
-export const Follow: React.FC<FollowProps> = ({ followType }) => {
+export const Follow: React.FC<FollowProps> = ({
+  followType,
+  fontClassName,
+}) => {
   const buttonInfo =
     followType === "tiktok"
       ? {
@@ -29,7 +33,7 @@ export const Follow: React.FC<FollowProps> = ({ followType }) => {
         alt={buttonInfo.image.alt}
         className={iconStyle}
       />
-      <span className={textPrimary}>{buttonInfo.text}</span>
+      <span className={textPrimary + fontClassName}>{buttonInfo.text}</span>
     </button>
   )
 }
