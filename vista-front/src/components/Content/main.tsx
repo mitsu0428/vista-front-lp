@@ -65,6 +65,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="144px"
               fontClassName={GoogleFont.passWithAnotherClass}
+              customID="about"
             >
               ABOUT US
             </SubtitleComponents.PinkFillSubTitle>
@@ -99,6 +100,7 @@ export const Components: React.FC = () => {
             <SubtitleComponents.PinkFillSubTitle
               fontSize="144px"
               fontClassName={GoogleFont.passWithAnotherClass}
+              customID="recruit"
             >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>

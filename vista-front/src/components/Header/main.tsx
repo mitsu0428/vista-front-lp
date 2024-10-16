@@ -23,10 +23,10 @@ export const Components: React.FC = () => {
         </div>
         <div className={styles.navWrapper}>
           <nav className={styles.nav}>
-            <Link href="/" className={GoogleFont.passClass}>
+            <Link href="/#about" className={GoogleFont.passClass}>
               ABOUT
             </Link>
-            <Link href="/" className={GoogleFont.passClass}>
+            <Link href="/#recruit" className={GoogleFont.passClass}>
               RECRUIT
             </Link>
             <Link href="/" className={GoogleFont.passClass}>
