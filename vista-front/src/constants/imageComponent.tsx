@@ -17,7 +17,6 @@ import RequirementsSP from "../../public/assets/webp/6_Requirements_SP.webp"
 import FaqPC from "../../public/assets/webp/7_Faq.webp"
 import FaqSP from "../../public/assets/webp/7_Faq_SP.webp"
 import MessagePC from "../../public/assets/webp/8_Message.webp"
-import MessageSP from "../../public/assets/webp/8_Message_SP.webp"
 import MessageSP1 from "../../public/assets/webp/8_Message_SP1.webp"
 import MessageSP2 from "../../public/assets/webp/8_Message_SP2.webp"
 
@@ -142,15 +141,8 @@ export const ImageComponents = {
         style={{ width: "100%", height: "100%" }}
       />
     ),
-    sp: () => (
-      <Image
-        src={MessageSP}
-        alt="Message SP"
-        style={{ width: "100%", height: "100%" }}
-      />
-    ),
   },
-  Message1: {
+  MessageSP1: {
     sp: () => (
       <Image
         src={MessageSP1}
@@ -159,7 +151,7 @@ export const ImageComponents = {
       />
     ),
   },
-  Message2: {
+  MessageSP2: {
     sp: () => (
       <Image
         src={MessageSP2}
@@ -170,7 +162,6 @@ export const ImageComponents = {
   },
 }
 
-// その他のロゴやアイコン画像
 export const LogoImage = () => (
   <Image src={Logo} alt="Logo" style={{ width: "100%", height: "100%" }} />
 )

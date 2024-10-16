@@ -167,8 +167,14 @@ export const Components: React.FC = () => {
               FOLLOW ME!
             </SubtitleComponents.PinkFillSubTitle>
             <div className={styles.followButtonField}>
-              <Follow followType="tiktok" />
-              <Follow followType="instagram" />
+              <Follow
+                followType="tiktok"
+                fontClassName={GoogleFont.passWithAnotherClass}
+              />
+              <Follow
+                followType="instagram"
+                fontClassName={GoogleFont.passWithAnotherClass}
+              />
             </div>
           </div>
         </div>
@@ -329,7 +335,7 @@ export const Components: React.FC = () => {
               ひかるからのメッセージ♡
             </TextComponents.PinkNormalText>
           </div>
-          <ImageComponents.Message1.sp />
+          <ImageComponents.MessageSP1.sp />
           <div className={styles.afterMessageWrapperSP}>
             <div className={styles.followButtonFieldWrapperSP}>
               <SubtitleComponents.PinkFillSubTitle
@@ -350,7 +356,7 @@ export const Components: React.FC = () => {
                 />
               </div>
             </div>
-            <ImageComponents.Message2.sp />
+            <ImageComponents.MessageSP2.sp />
           </div>
         </div>
       </div>
