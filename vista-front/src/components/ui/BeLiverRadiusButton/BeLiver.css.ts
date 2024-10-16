@@ -31,6 +31,31 @@ export const buttonStyle = style({
   },
 })
 
+export const buttonStyleInToggle = style({
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "229px",
+  height: "59px",
+  background: "#3BD0FF",
+  color: "#fff",
+  boxShadow: "0px 4px 14px 0px #00000040",
+  border: "3px solid #fff",
+  borderRadius: "45px",
+  cursor: "pointer",
+  textAlign: "center",
+  outline: "none",
+  transition: "all 0.3s ease",
+  position: "relative",
+  zIndex: 2,
+
+  ":hover": {
+    background: "#fff",
+    color: "#3BD0FF",
+  },
+})
+
 export const headerButtonStyle = style([
   buttonStyle,
   {
@@ -46,6 +71,20 @@ export const textPrimary = style({
   fontSize: "54px",
   fontWeight: 400,
   lineHeight: "59.45px",
+  letterSpacing: "0.01em",
+  textAlign: "left",
+  margin: 0,
+  "@media": {
+    "screen and (max-width: 768px)": {
+      fontSize: "35px",
+    },
+  },
+})
+
+export const textPrimaryInToggle = style({
+  fontSize: "30px",
+  fontWeight: 400,
+  lineHeight: "33.03px",
   letterSpacing: "0.01em",
   textAlign: "left",
   margin: 0,
@@ -77,6 +116,16 @@ export const textSecondary = style({
       fontSize: "16px",
     },
   },
+})
+
+export const textSecondaryInToggle = style({
+  fontSize: "14px",
+  fontWeight: 700,
+  lineHeight: "24px",
+  letterSpacing: "0.01em",
+  textAlign: "left",
+  margin: 0,
+  marginTop: "-9px",
 })
 
 export const headerTextSecondary = style([

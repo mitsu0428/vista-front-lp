@@ -5,7 +5,7 @@ import Link from "next/link"
 import type React from "react"
 import { useState } from "react"
 import { LogoImage } from "../../constants/image"
-import { BeLiver } from "../ui/BeLiverRadiusButton/main"
+import { BeLiver, BeLiverInToggle } from "../ui/BeLiverRadiusButton/main"
 import * as styles from "./Header.css"
 
 export const Components: React.FC = () => {
@@ -79,6 +79,7 @@ export const Components: React.FC = () => {
             <Link href="/privacy" className={GoogleFont.passClass}>
               PRIVACY POLICY
             </Link>
+            <BeLiverInToggle />
           </div>
         </div>
       )}
