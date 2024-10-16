@@ -48,6 +48,13 @@ export const nav = style({
     },
   },
 })
+export const spNav = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: "18px",
+  marginTop: "35px",
+  marginLeft: "35px",
+})
 export const navWrapper = style({
   display: "flex",
 })

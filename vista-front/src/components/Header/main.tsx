@@ -66,18 +66,20 @@ export const Components: React.FC = () => {
               ×
             </button>
           </div>
-          <Link href="/" className={GoogleFont.passClass}>
-            ABOUT
-          </Link>
-          <Link href="/" className={GoogleFont.passClass}>
-            RECRUIT
-          </Link>
-          <Link href="/" className={GoogleFont.passClass}>
-            COMPANY
-          </Link>
-          <Link href="/privacy" className={GoogleFont.passClass}>
-            PRIVACY POLICY
-          </Link>
+          <div className={styles.spNav}>
+            <Link href="/#about" className={GoogleFont.passClass}>
+              ABOUT
+            </Link>
+            <Link href="/#recruit" className={GoogleFont.passClass}>
+              RECRUIT
+            </Link>
+            <Link href="/" className={GoogleFont.passClass}>
+              COMPANY
+            </Link>
+            <Link href="/privacy" className={GoogleFont.passClass}>
+              PRIVACY POLICY
+            </Link>
+          </div>
         </div>
       )}
     </div>

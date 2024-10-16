@@ -265,6 +265,7 @@ export const Components: React.FC = () => {
               fontSize="55px"
               lineHeight="normal"
               fontClassName={GoogleFont.passWithAnotherClass}
+              customID="recruit"
             >
               REQUIREMENTS
             </SubtitleComponents.PinkFillSubTitle>
