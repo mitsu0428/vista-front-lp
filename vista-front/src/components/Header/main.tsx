@@ -63,7 +63,8 @@ export const Components: React.FC = () => {
               onClick={toggleMenu}
               type="button"
             >
-              ×
+              <span className={styles.crossLine1} />
+              <span className={styles.crossLine2} />
             </button>
           </div>
           <div className={styles.spNav}>

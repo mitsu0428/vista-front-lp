@@ -125,6 +125,22 @@ export const bar3Open = style({
   transform: "rotate(45deg) translate(-8px, -8px)",
 })
 
+export const crossLine1 = style({
+  position: "absolute",
+  width: "38.74px",
+  height: "2.75px",
+  backgroundColor: "#F276AA",
+  transform: "rotate(43.88deg)",
+})
+
+export const crossLine2 = style({
+  position: "absolute",
+  width: "38.74px",
+  height: "2.75px",
+  backgroundColor: "#F276AA",
+  transform: "rotate(-43.88deg)",
+})
+
 export const menu = style({
   width: "100%",
   height: "391px",
@@ -154,7 +170,7 @@ export const logoAndCloseButton = style({
 })
 
 export const closeButton = style({
-  alignSelf: "flex-end",
+  width: "66px",
   fontSize: "25px",
   color: "#F276AA",
   background: "none",
