@@ -372,6 +372,12 @@ export const followButtonFieldWrapperSP = style({
   width: "100%",
   display: "flex",
   flexDirection: "column",
+  alignItems: "center",
+})
+
+export const followButtonFieldSPFollow = style({
+  // MEMO: FollowタグのWidthが232pxなので合わせる
+  width: "232px",
 })
 
 export const followButtonFieldSP = style([

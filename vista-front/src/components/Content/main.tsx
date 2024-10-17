@@ -338,13 +338,15 @@ export const Components: React.FC = () => {
           <ImageComponents.MessageSP1.sp />
           <div className={styles.afterMessageWrapperSP}>
             <div className={styles.followButtonFieldWrapperSP}>
-              <SubtitleComponents.PinkFillSubTitle
-                fontSize="30px"
-                lineHeight="normal"
-                fontClassName={GoogleFont.passWithAnotherClass}
-              >
-                FOLLOW ME!
-              </SubtitleComponents.PinkFillSubTitle>
+              <div className={styles.followButtonFieldSPFollow}>
+                <SubtitleComponents.PinkFillSubTitle
+                  fontSize="30px"
+                  lineHeight="normal"
+                  fontClassName={GoogleFont.passWithAnotherClass}
+                >
+                  FOLLOW ME!
+                </SubtitleComponents.PinkFillSubTitle>
+              </div>
               <div className={styles.followButtonFieldSP}>
                 <Follow
                   followType="tiktok"
