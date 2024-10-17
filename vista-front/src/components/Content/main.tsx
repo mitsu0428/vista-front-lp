@@ -190,7 +190,7 @@ export const Components: React.FC = () => {
           <div className={styles.subtitleWrapperSP}>
             <SubtitleComponents.PinkFillSubTitle
               fontSize="70px"
-              marginTop="24px"
+              marginTop="14px"
               textAlign="center"
               lineHeight="normal"
               fontClassName={GoogleFont.passWithAnotherClass}
@@ -199,7 +199,7 @@ export const Components: React.FC = () => {
             </SubtitleComponents.PinkFillSubTitle>
             <SubtitleComponents.PinkNotFillSubTitleWithBorder
               fontSize="70px"
-              marginTop="-24px"
+              marginTop="-14px"
               textAlign="center"
               lineHeight="normal"
               fontClassName={GoogleFont.passWithAnotherClass}
