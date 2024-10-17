@@ -69,7 +69,7 @@ export const hamburgerButton = style({
   width: "66px",
   height: "66px",
   backgroundColor: "#F276AA",
-  position: "absolute",
+  position: "fixed",
   top: "0",
   right: "0",
   zIndex: "10",
