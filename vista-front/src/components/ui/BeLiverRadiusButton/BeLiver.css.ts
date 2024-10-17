@@ -23,6 +23,7 @@ export const buttonStyle = style({
     background: "#fff",
     color: "#3BD0FF",
   },
+
   "@media": {
     "screen and (max-width: 768px)": {
       width: "278px", // = 272(width) + 3(border) + 3(border)
