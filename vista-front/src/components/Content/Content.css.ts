@@ -176,7 +176,6 @@ export const followButtonFieldWrapper = style({
 
 export const followButtonField = style({
   display: "flex",
-  // justifyContent: "space-between",
   columnGap: "8px",
   margin: "7px 0 0",
 })
@@ -371,7 +370,8 @@ export const afterMessageWrapperSP = style({
 export const followButtonFieldWrapperSP = style({
   position: "relative",
   width: "100%",
-  marginLeft: "100px",
+  display: "flex",
+  flexDirection: "column",
 })
 
 export const followButtonFieldSP = style([
