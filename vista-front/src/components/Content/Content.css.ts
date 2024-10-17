@@ -50,11 +50,10 @@ export const introductionDescriptionMain = style({
   marginRight: "auto",
   color: "#F27EAE",
   textAlign: "center",
-  fontFamily: "Noto Sans JP",
   fontSize: "25px",
   fontStyle: "normal",
   fontWeight: "700",
-  lineHeight: "38px" /* 152% */,
+  lineHeight: "38px",
   letterSpacing: "0.75px",
 })
 
@@ -63,11 +62,10 @@ export const introductionDescriptionDetail = style({
   margin: "17px auto 0",
   color: "#1E1E1E",
   textAlign: "center",
-  fontFamily: "Noto Sans JP",
   fontSize: "18px",
   fontStyle: "normal",
   fontWeight: "500",
-  lineHeight: "30px" /* 166.667% */,
+  lineHeight: "30px",
   letterSpacing: "0.54px",
 })
 
@@ -228,7 +226,6 @@ export const introductionDescriptionVistaSP = style([
     color: "#F27EAE",
     margin: "8px 0 0",
     textAlign: "center",
-    fontFamily: "Noto Sans JP",
     fontSize: "20px",
     fontStyle: "normal",
     fontWeight: "700",

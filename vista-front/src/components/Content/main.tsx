@@ -43,7 +43,12 @@ export const Components: React.FC = () => {
           </div>
           <ImageComponents.Introduction.pc />
         </div>
-        <div className={styles.introductionDescriptionWrapper}>
+        <div
+          className={
+            styles.introductionDescriptionWrapper +
+            GoogleFont.notoWithAnotherClass
+          }
+        >
           <div className={styles.introductionDescriptionMain}>
             総フォロワー数200万人超えの人気インフルエンサー浦西ひかるがプロデュース♡
             <br />
@@ -209,7 +214,12 @@ export const Components: React.FC = () => {
           </div>
           <ImageComponents.Introduction.sp />
         </div>
-        <div className={styles.introductionDescriptionWrapperSP}>
+        <div
+          className={
+            styles.introductionDescriptionWrapperSP +
+            GoogleFont.notoWithAnotherClass
+          }
+        >
           <div className={styles.introductionDescriptionMainSP}>
             総フォロワー数200万人超えの
             <br />

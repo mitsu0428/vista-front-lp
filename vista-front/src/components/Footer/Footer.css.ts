@@ -13,7 +13,6 @@ export const footerContainer = style({
 
 // フッター内のテキストスタイル
 export const footerTextStyle = style({
-  fontFamily: "'Inter', sans-serif",
   fontSize: "14px",
   fontWeight: 400,
   lineHeight: "16.94px",
