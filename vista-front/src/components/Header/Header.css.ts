@@ -123,7 +123,7 @@ export const menu = style({
   width: "100%",
   height: "391px",
   backgroundColor: "white",
-  position: "absolute",
+  position: "fixed",
   top: "0",
   right: "0",
   display: "flex",
