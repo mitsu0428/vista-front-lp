@@ -67,16 +67,28 @@ export const Components: React.FC = () => {
             </button>
           </div>
           <div className={styles.spNav}>
-            <Link href="/#about" className={GoogleFont.passClass}>
+            <Link
+              href="/#about"
+              className={styles.spNavLinkText + GoogleFont.passWithAnotherClass}
+            >
               ABOUT
             </Link>
-            <Link href="/#recruit" className={GoogleFont.passClass}>
+            <Link
+              href="/#recruit"
+              className={styles.spNavLinkText + GoogleFont.passWithAnotherClass}
+            >
               RECRUIT
             </Link>
-            <Link href="/" className={GoogleFont.passClass}>
+            <Link
+              href="/"
+              className={styles.spNavLinkText + GoogleFont.passWithAnotherClass}
+            >
               COMPANY
             </Link>
-            <Link href="/privacy" className={GoogleFont.passClass}>
+            <Link
+              href="/privacy"
+              className={styles.spNavLinkText + GoogleFont.passWithAnotherClass}
+            >
               PRIVACY POLICY
             </Link>
             <div className={styles.beLiverInToggleWrapper}>

@@ -55,6 +55,11 @@ export const spNav = style({
   marginTop: "35px",
   marginLeft: "35px",
 })
+export const spNavLinkText = style({
+  fontSize: "25px",
+  color: "#F276AA",
+  textDecoration: "none",
+})
 export const beLiverInToggleWrapper = style({
   display: "flex",
   justifyContent: "center",
