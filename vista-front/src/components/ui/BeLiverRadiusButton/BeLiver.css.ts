@@ -78,6 +78,7 @@ export const textPrimary = style({
   "@media": {
     "screen and (max-width: 768px)": {
       fontSize: "35px",
+      lineHeight: "38.54px",
     },
   },
 })
