@@ -180,7 +180,10 @@ export const Components: React.FC = () => {
             >
               2. 個人情報の収集・利用 
             </TextComponents.PinkNormalText>
-            <NormalText marginBottom="30px">
+            <NormalText
+              marginBottom="30px"
+              fontClassName={GoogleFont.notoWithAnotherClass}
+            >
               お客様にお断りなく、個人情報を収集することはせずに適法かつ公正な手段によって行います。
               <br />
               当社は、お客様から個人情報をお預かりする場合は、利用目的や利用方法を通知またはウェブサイト等に公表したうえで、必要な範囲の個人情報をお預かりいたします。
