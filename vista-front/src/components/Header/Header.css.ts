@@ -55,6 +55,12 @@ export const spNav = style({
   marginTop: "35px",
   marginLeft: "35px",
 })
+export const beLiverInToggleWrapper = style({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+})
+
 export const navWrapper = style({
   display: "flex",
 })
@@ -114,7 +120,7 @@ export const bar3Open = style({
 })
 
 export const menu = style({
-  width: "308px",
+  width: "100%",
   height: "391px",
   backgroundColor: "white",
   position: "absolute",

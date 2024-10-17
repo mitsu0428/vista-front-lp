@@ -79,7 +79,9 @@ export const Components: React.FC = () => {
             <Link href="/privacy" className={GoogleFont.passClass}>
               PRIVACY POLICY
             </Link>
-            <BeLiverInToggle />
+            <div className={styles.beLiverInToggleWrapper}>
+              <BeLiverInToggle />
+            </div>
           </div>
         </div>
       )}
