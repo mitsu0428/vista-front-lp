@@ -4,12 +4,13 @@ export const header = style({
   height: "65px",
   width: "100%",
   backgroundColor: "#FFDCEA",
-  position: "absolute",
+  position: "fixed",
   top: 0,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
   padding: "0 0 0 20px",
+  zIndex: 3,
 
   "@media": {
     "screen and (max-width: 768px)": {
